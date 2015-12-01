@@ -1,6 +1,6 @@
 {
   "name": "rdf-store-sparql-browser",
-  "version": "0.3.0-rc1",
+  "version": "0.3.0-rc1b",
   "description": "A browser friendly version of rdf-store-sparql",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,9 @@
   "dependencies": {
     "rdf-store-sparql": "0.3.0-rc1"
   },
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/retog/rdf-store-sparql-browser.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retog/rdf-store-sparql-browser.git"
   },
   "devDependencies": {
     "browserify": "latest",
