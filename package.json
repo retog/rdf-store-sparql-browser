@@ -1,0 +1,22 @@
+{
+  "name": "rdf-store-sparql-browser",
+  "version": "0.3.0-rc1",
+  "description": "A browser friendly version of rdf-store-sparql",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "mkdir -p dist && browserify -d index.js --external rdf-ext | exorcist dist/rdf-store-sparql.js.map > dist/rdf-store-sparql.js"
+  },
+  "author": "Reto Gmür <me@farewellutopia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rdf-store-sparql": "0.3.0-rc1"
+  },
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/retog/rdf-store-sparql-browser.git"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "exorcist": "^0.4.0"
+  }
+}
