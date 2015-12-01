@@ -12,7 +12,7 @@ deploy:
   - provider: releases
     api_key:
       secure: "ReTmWqaSqZ3a9++TJLQwTX6Ivr5+CzUVgJHDUEzGZZvoSgQ0sYkkKwWq2eyN47Rh1G37nNLoZoXw6imaGNuNVgIWCpg56mGQE53DTom/7GCGUCDhUOk6T3xA2MyPp3JJ6umh3vMn2n3e4qkYqhUsDtwEJlomWoukA7oSDmtA+tze47T7vAlofPbBZNTAjIxOwU15OYe+S+Xq2TSswL6l2gSZnB4Uts5FV+2AXUXno+dpA9UpT9ECj5QLa0XK/adjGguk9hQM9wOITJmfZleiRd8VtbbWPfKC5krIZ6Q3FTrjrJ8X76QrjjfuE2iTtYxR1QL0lWac805YpmqoGszNQ9rg043ps6bLtuC+HhLQZaufTRJ2OJF3zDObP7rxDCAy/HcNfaPB11rqJBmyY0k52lnASJ76Hg9EjfhuNa0w7n08ma+UBNuAT2QQ7hq1WGh11Ncih082Po2PLBj3fDGgsnV1jYqYA7isNEZiZcikeW4/kZ/ViPjErm0hDA93WF6Poa9B2Zaf0UH6RED2ptevHH591DDD++C9u/Oyg279tzQwM2XPlbK/1ggS0/c6jMGS+yZWdepWRgqgaFreztpEpGs7kmBDTb20MS/n7giCfLOSWPG7QLbkFESauKFilsokz5SxcSPMgABfZmSl/o2/xt40+6iKi3Iz76zM6Fa4UqI="
-    file: dist/rdf-store-ldp.js
+    file: dist/rdf-store-sparql.js
     on:
       tags: true
 #  - provider: bintray
